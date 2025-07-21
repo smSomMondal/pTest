@@ -23,7 +23,7 @@ const Login = () => {
             if (userRes.status === 200) {
                 const user = userRes.data;
                 login(user);
-                navigate(user.userType === 'seller' ? "/" : "/home");
+                navigate('/');
                 window.location.reload(); // Consider removing this for better SPA experience
             }
         } catch (err) {
