@@ -41,7 +41,7 @@ function ProductListSeller() {
             // Fetch products for the seller
             const user = JSON.parse(localStorage.getItem("user"));
             const token = user?.token;
-            const response = await axios.put("/product/getProduct", {
+            const response = await axios.get("/product/getProduct", {
                 headers: {
                     Authorization: `Bearer ${token}`,
                     "Content-Type": "application/json"
