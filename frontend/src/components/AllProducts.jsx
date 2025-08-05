@@ -41,11 +41,11 @@ const EditProductModal = ({ product, onClose, onUpdate }) => {
                     <div className="grid grid-cols-2 gap-4">
                         <div>
                             <label className="block text-sm font-medium text-gray-700">Category</label>
-                            <input type="text" name="category" value={formData.category} onChange={handleChange} className="mt-1 block w-full border border-gray-300 rounded-md shadow-sm p-2" />
+                            <input type="text" name="category" value={formData.category} className="mt-1 block w-full border border-gray-300 rounded-md shadow-sm p-2" />
                         </div>
                         <div>
                             <label className="block text-sm font-medium text-gray-700">Subcategory</label>
-                            <input type="text" name="subcategory" value={formData.subcategory} onChange={handleChange} className="mt-1 block w-full border border-gray-300 rounded-md shadow-sm p-2" />
+                            <input type="text" name="subcategory" value={formData.subcategory} className="mt-1 block w-full border border-gray-300 rounded-md shadow-sm p-2" />
                         </div>
                     </div>
                     <div className="flex justify-end space-x-4 pt-4">
