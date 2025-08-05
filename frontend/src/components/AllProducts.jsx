@@ -172,7 +172,7 @@ const AllProductsPage = () => {
                                             <td className="px-6 py-4 whitespace-nowrap">
                                                 <div className="flex items-center">
                                                     <div className="flex-shrink-0 h-10 w-10">
-                                                        <img className="h-10 w-10 rounded-full object-cover" src={product.imagesUrl || 'https://via.placeholder.com/150'} alt={product.name} />
+                                                        <img className="h-10 w-10 rounded-full object-cover" src={product.imagesUrl} alt={product.name} />
                                                     </div>
                                                     <div className="ml-4">
                                                         <div className="text-sm font-medium text-gray-900">{product.name}</div>
