@@ -79,7 +79,7 @@ const OrderHistory = () => {
     return <ErrorMessage>{error}</ErrorMessage>;
   }
 
-  if (orders.length === 0) {
+  if (orders.length === 0 && delevers.length === 0) {
     return (
       <Container>
         <h1>Order History</h1>
