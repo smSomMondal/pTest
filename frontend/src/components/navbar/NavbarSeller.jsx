@@ -23,7 +23,7 @@ function NavbarSeller() {
 
     const handleLogout = () => {
         logOut();
-        navigate('/login');
+        navigate('/');
         window.location.reload();
     };
 
